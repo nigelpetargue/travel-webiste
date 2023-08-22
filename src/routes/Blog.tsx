@@ -1,6 +1,5 @@
-import { Box, Container } from '@mantine/core';
+import { Container } from '@mantine/core';
 import Showcase from '../components/About/Showcase';
-import Welcome from '../components/About/Welcome';
 import Popular from '../components/Home/Popular';
 import FooterNav from '../components/Layout/FooterNav';
 import Destinations from '../components/Home/Destinations';

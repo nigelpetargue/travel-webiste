@@ -1,4 +1,4 @@
-import { Box, Divider, Group, Text } from '@mantine/core';
+import { Box, Divider, Text } from '@mantine/core';
 import InformationItem from './Info';
 
 export default function LeftContainer() {

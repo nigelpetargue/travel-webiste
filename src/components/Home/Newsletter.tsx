@@ -1,4 +1,4 @@
-import { Box, Button, Group, Text, TextInput, Title, UnstyledButton } from '@mantine/core';
+import { Box, Group, Title, UnstyledButton } from '@mantine/core';
 
 export default function Newsletter() {
   return (
@@ -14,7 +14,7 @@ export default function Newsletter() {
     >
       <Title>Sign up to our newsletter</Title>
       <UnstyledButton
-        sx={(theme) => ({
+        sx={() => ({
           boxShadow: '-1px 1px 28px 4px rgba(0,0,0,0.36)',
           borderRadius: 10,
         })}

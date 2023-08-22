@@ -1,5 +1,4 @@
 import { Box, Button, Image, SimpleGrid, Stack, Text, Title } from '@mantine/core';
-import RightContainer from '../Home/Right';
 
 export default function Welcome() {
   return (

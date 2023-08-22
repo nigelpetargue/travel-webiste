@@ -7,7 +7,7 @@ import {
   ActionIcon,
   Divider,
 } from '@mantine/core';
-import { NavLink, Navigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { navigations } from './navigations';
 import { useMediaQuery, useDisclosure } from '@mantine/hooks';
 import { IoMenu } from 'react-icons/io5';
