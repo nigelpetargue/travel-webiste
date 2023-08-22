@@ -23,7 +23,7 @@ export default function Welcome() {
             justifyContent: 'center',
           })}
         >
-          <Image src="/src/assets/images/travel-1.png" fit="contain" height={351} width={400} />
+          <Image src="/images/travel-1.png" fit="contain" height={351} width={400} />
         </Box>
       </SimpleGrid>
     </Box>

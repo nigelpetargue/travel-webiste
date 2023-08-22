@@ -7,12 +7,7 @@ import Detail from './Feature/Detail';
 export default function Features() {
   return (
     <SimpleGrid h="90vh" cols={2}>
-      <Image
-        src="/src/assets/images/1664535286200-image2.png"
-        fit="contain"
-        height={496}
-        width={442}
-      />
+      <Image src="/images/1664535286200-image2.png" fit="contain" height={496} width={442} />
       <Stack spacing="xl">
         <Title>Explore all corners of the world with us</Title>
         <Text color="dimmed" mb={50} style={{ lineHeight: 2 }}>

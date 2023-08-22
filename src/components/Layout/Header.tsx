@@ -32,7 +32,7 @@ export default function Header() {
       <Flex h="100%" gap="lg" direction="row" justify="center" align="center">
         <Group position="apart" w="100%">
           <Image
-            src="/assets/images/logo.png"
+            src="/images/logo.png"
             alt="brand-logo"
             fit="contain"
             height={80}
