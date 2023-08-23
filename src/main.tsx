@@ -7,6 +7,7 @@ import Home from './routes/Home';
 import Category from './routes/Category';
 import Blog from './routes/Blog';
 import About from './routes/About';
+import ErrorBoundary from './routes/ErrorBoundary';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
     ],
+
+    errorElement: <ErrorBoundary />,
   },
 ]);
 

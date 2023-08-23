@@ -6,7 +6,7 @@ import Column4 from './Footer/Col-4';
 
 export default function FooterNav() {
   return (
-    <SimpleGrid cols={4} h={300} mt={50} py={20}>
+    <SimpleGrid cols={4} h={300} mt={100} py={20}>
       <Column1 />
       <Column2 />
       <Column3 />
