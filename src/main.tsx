@@ -4,9 +4,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { MantineProvider } from '@mantine/core';
 import Layout from './components/Layout/Layout';
 import Home from './routes/Home';
-import Category from './routes/Category';
-import Blog from './routes/Blog';
-import About from './routes/About';
+// import Category from './routes/Category';
+// import Blog from './routes/Blog';
+// import About from './routes/About';
 import ErrorBoundary from './routes/ErrorBoundary';
 
 const router = createBrowserRouter([
@@ -18,18 +18,18 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home />,
       },
-      {
-        path: '/category',
-        element: <Category />,
-      },
-      {
-        path: '/blog',
-        element: <Blog />,
-      },
-      {
-        path: '/about',
-        element: <About />,
-      },
+      // {
+      //   path: '/category',
+      //   element: <Category />,
+      // },
+      // {
+      //   path: '/blog',
+      //   element: <Blog />,
+      // },
+      // {
+      //   path: '/about',
+      //   element: <About />,
+      // },
     ],
 
     errorElement: <ErrorBoundary />,
