@@ -11,7 +11,7 @@ export default function Footer() {
         justifyContent: 'center',
       })}
     >
-      <Text size="sm">Copyright © 2023 Nigel Petargue</Text>
+      <Text size="sm">Copyright © 2023 Pacifico</Text>
     </MantineFooter>
   );
 }
