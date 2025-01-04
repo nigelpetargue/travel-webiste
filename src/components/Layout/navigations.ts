@@ -4,15 +4,15 @@ export const navigations = [
     label: 'Home',
   },
   {
-    href: '/about',
+    href: '/',
     label: 'About',
   },
   {
-    href: '/blog',
+    href: '/',
     label: 'Blog',
   },
   {
-    href: '/contact',
+    href: '/',
     label: 'Contact',
   },
 ];
